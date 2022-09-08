@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>CMPG323_Project2___34894845</RootNamespace>
+	<GenerateRuntimeConfigurationFiles>True</GenerateRuntimeConfigurationFiles>
+
   </PropertyGroup>
 
   <ItemGroup>
