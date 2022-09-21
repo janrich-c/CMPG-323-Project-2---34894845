@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using CMPG323_Project2___34894845.Models;
 
 namespace JWTAuthentication
 {
@@ -25,6 +26,9 @@ namespace JWTAuthentication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDbContext<ConnectedOfficeContext>(options => options.UseSqlServer("name=ConnectionStrings:ConnStr"));
+            services.AddSwaggerGen(options => { options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "MyTest Demo API", Version = "v2", Description = "Test demo for students", }); });
+            
 
             // For Entity Framework  
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
@@ -75,6 +79,8 @@ namespace JWTAuthentication
             {
                 endpoints.MapControllers();
             });
+            app.UseSwagger(); 
+            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "Janrich Cronje 34894845"));
         }
     }
 }

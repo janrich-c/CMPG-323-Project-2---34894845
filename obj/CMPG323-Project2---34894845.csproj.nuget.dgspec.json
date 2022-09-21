@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Janrich\\Desktop\\New folder\\CMPG323-Project2---34894845.csproj": {}
+    "C:\\Users\\Janrich\\Documents\\NWU\\323\\Proj2\\Janrich-Cronje-34894845-Proj2\\CMPG323-Project2---34894845.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Janrich\\Desktop\\New folder\\CMPG323-Project2---34894845.csproj": {
+    "C:\\Users\\Janrich\\Documents\\NWU\\323\\Proj2\\Janrich-Cronje-34894845-Proj2\\CMPG323-Project2---34894845.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Janrich\\Desktop\\New folder\\CMPG323-Project2---34894845.csproj",
+        "projectUniqueName": "C:\\Users\\Janrich\\Documents\\NWU\\323\\Proj2\\Janrich-Cronje-34894845-Proj2\\CMPG323-Project2---34894845.csproj",
         "projectName": "CMPG323-Project2---34894845",
-        "projectPath": "C:\\Users\\Janrich\\Desktop\\New folder\\CMPG323-Project2---34894845.csproj",
+        "projectPath": "C:\\Users\\Janrich\\Documents\\NWU\\323\\Proj2\\Janrich-Cronje-34894845-Proj2\\CMPG323-Project2---34894845.csproj",
         "packagesPath": "C:\\Users\\Janrich\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Janrich\\Desktop\\New folder\\obj\\",
+        "outputPath": "C:\\Users\\Janrich\\Documents\\NWU\\323\\Proj2\\Janrich-Cronje-34894845-Proj2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,17 +58,21 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.28, )"
+              "version": "[3.1.25, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.28, )"
+              "version": "[3.1.25, )"
             },
             "Microsoft.OpenApi": {
               "target": "Package",
-              "version": "[1.4.1, )"
+              "version": "[1.4.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
