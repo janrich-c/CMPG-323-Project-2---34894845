@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C6pDiqfADhJ1/UVNKVDkzKguub52ZHhOTEbdDc5ZZvX/JJQiSwU8ZcP5VYJUIwrdcnAk6l7Lr13FKXqyNYPGHQ==",
+  "dgSpecHash": "omYUcB8chRTkDpP3XbkuznKwiWEau/12q8SRDCieJ7G9Qn15ruQaVVT6mMDurlgz0aOXkr9KMhj+yIb2zbJQAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Janrich\\Documents\\NWU\\323\\Proj2\\Janrich-Cronje-34894845-Proj2\\CMPG323-Project2---34894845.csproj",
   "expectedPackageFiles": [
@@ -39,10 +39,10 @@
     "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.28\\microsoft.entityframeworkcore.3.1.28.nupkg.sha512",
     "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.28\\microsoft.entityframeworkcore.abstractions.3.1.28.nupkg.sha512",
     "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.28\\microsoft.entityframeworkcore.analyzers.3.1.28.nupkg.sha512",
-    "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.25\\microsoft.entityframeworkcore.design.3.1.25.nupkg.sha512",
+    "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.28\\microsoft.entityframeworkcore.design.3.1.28.nupkg.sha512",
     "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.28\\microsoft.entityframeworkcore.relational.3.1.28.nupkg.sha512",
-    "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.25\\microsoft.entityframeworkcore.sqlserver.3.1.25.nupkg.sha512",
-    "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.25\\microsoft.entityframeworkcore.tools.3.1.25.nupkg.sha512",
+    "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.28\\microsoft.entityframeworkcore.sqlserver.3.1.28.nupkg.sha512",
+    "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.28\\microsoft.entityframeworkcore.tools.3.1.28.nupkg.sha512",
     "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.28\\microsoft.extensions.caching.abstractions.3.1.28.nupkg.sha512",
     "C:\\Users\\Janrich\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.28\\microsoft.extensions.caching.memory.3.1.28.nupkg.sha512",

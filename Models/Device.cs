@@ -14,7 +14,7 @@ namespace CMPG323_Project2___34894845.Models
         public Guid CategoryId { get; set; }
         public Guid ZoneId { get; set; }
         public string Status { get; set; }
-        public bool IsActvie { get; set; }
+        public bool IsActive { get; set; }
         public DateTime DateCreated { get; set; }
     }
 }

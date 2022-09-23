@@ -1,4 +1,5 @@
 ﻿using JWTAuthentication.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +14,7 @@ using System.Threading.Tasks;
 
 namespace JWTAuthentication.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class AuthenticateController : ControllerBase
@@ -103,6 +105,7 @@ namespace JWTAuthentication.Controllers
                 UserName = model.Username
             };
             var result = await userManager.CreateAsync(user, model.Password);
+            Console.WriteLine(result.Errors);
             if (!result.Succeeded)
                 return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User creation failed! Please check user details and try again." });
 
@@ -120,3 +123,5 @@ namespace JWTAuthentication.Controllers
         }
     }
 }
+
+

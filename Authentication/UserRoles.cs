@@ -6,4 +6,3 @@
         public const string User = "User";
     }
 }
-
